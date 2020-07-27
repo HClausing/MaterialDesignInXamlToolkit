@@ -430,7 +430,7 @@ namespace MaterialDesignThemes.Wpf
 
         /// <summary>
         /// Raised when the popup is closed.
-        /// </summary>
+        /// </summary> 
         public event RoutedEventHandler Closed
         {
             add { AddHandler(ClosedEvent, value); }
